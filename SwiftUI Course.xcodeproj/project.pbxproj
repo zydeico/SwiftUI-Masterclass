@@ -15,6 +15,7 @@
 		F86569EE23F8577800FB4B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86569EC23F8577800FB4B51 /* LaunchScreen.storyboard */; };
 		F86569F923F8577800FB4B51 /* SwiftUI_CourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86569F823F8577800FB4B51 /* SwiftUI_CourseTests.swift */; };
 		F8656A0423F8577800FB4B51 /* SwiftUI_CourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8656A0323F8577800FB4B51 /* SwiftUI_CourseUITests.swift */; };
+		F8656A1223F85D1D00FB4B51 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8656A1123F85D1D00FB4B51 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F86569FF23F8577800FB4B51 /* SwiftUI CourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI CourseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8656A0323F8577800FB4B51 /* SwiftUI_CourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CourseUITests.swift; sourceTree = "<group>"; };
 		F8656A0523F8577800FB4B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8656A1123F85D1D00FB4B51 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F86569E123F8577600FB4B51 /* AppDelegate.swift */,
 				F86569E323F8577600FB4B51 /* SceneDelegate.swift */,
 				F86569E523F8577600FB4B51 /* ContentView.swift */,
+				F8656A1123F85D1D00FB4B51 /* CardView.swift */,
 				F86569E723F8577800FB4B51 /* Assets.xcassets */,
 				F86569EC23F8577800FB4B51 /* LaunchScreen.storyboard */,
 				F86569EF23F8577800FB4B51 /* Info.plist */,
@@ -270,6 +273,7 @@
 				F86569E223F8577600FB4B51 /* AppDelegate.swift in Sources */,
 				F86569E423F8577600FB4B51 /* SceneDelegate.swift in Sources */,
 				F86569E623F8577600FB4B51 /* ContentView.swift in Sources */,
+				F8656A1223F85D1D00FB4B51 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
