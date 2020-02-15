@@ -13,7 +13,16 @@ struct ContentView: View {
     // MARK: - CONTENT
     
     var body: some View {
-        CardView()
+        // Using Scrollview
+        ScrollView(.horizontal, showsIndicators: false) {
+            // Put the car into horizontal container
+            HStack(alignment: .center, spacing: 20) {
+                ForEach(0 ..< 6) { item in
+                    CardView()
+                }
+            }
+            .padding(20)
+        }
     }
 }
 
