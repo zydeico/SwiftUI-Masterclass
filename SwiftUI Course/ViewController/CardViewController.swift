@@ -16,6 +16,7 @@ struct CardView: View {
     @State private var fadeIn: Bool = false
     @State private var moveDownWard: Bool = false
     @State private var moveUpWard: Bool = false
+    @State private var showAlert: Bool = false
     
     var hapticImact = UIImpactFeedbackGenerator(style: .heavy)
     
@@ -50,6 +51,9 @@ struct CardView: View {
                 
                 // Vibración al pulsar el botón
                 self.hapticImact.impactOccurred()
+                
+                // Notification
+                self.showAlert.toggle()
             }) {
                 
                 // Adding to HSTack
@@ -75,16 +79,23 @@ struct CardView: View {
         .background(LinearGradient(gradient: Gradient(colors: card.gradientColors), startPoint: .top, endPoint: .bottom))
         .cornerRadius(16)
         .shadow(radius: 8)
-        
-        // Animaciones
-        .onAppear() {
-            withAnimation(.linear(duration: 1.2)) {
-                self.fadeIn.toggle()
-            }
-            withAnimation(.linear(duration: 0.8)) {
-                self.moveDownWard.toggle()
-                self.moveUpWard.toggle()
-            }
+            
+            // Animaciones
+            .onAppear() {
+                withAnimation(.linear(duration: 1.2)) {
+                    self.fadeIn.toggle()
+                }
+                withAnimation(.linear(duration: 0.8)) {
+                    self.moveDownWard.toggle()
+                    self.moveUpWard.toggle()
+                }
+        }
+            // Alert al hacer clic en el botón
+            .alert(isPresented: $showAlert) {
+                Alert(title: Text(card.title),
+                      message: Text(card.message),
+                      dismissButton: .default(Text("OK"))
+                )
         }
     }
 }
