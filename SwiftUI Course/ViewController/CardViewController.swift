@@ -35,6 +35,7 @@ struct CardView: View {
             // Adding button
             Button(action: {
                 print("Button was tapped.")
+                playSound(sound: "sound-chime", type: "mp3")
             }) {
                 
                 // Adding to HSTack
