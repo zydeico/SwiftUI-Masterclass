@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,31 +15,12 @@
 		F86569E823F8577800FB4B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86569E723F8577800FB4B51 /* Assets.xcassets */; };
 		F86569EB23F8577800FB4B51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86569EA23F8577800FB4B51 /* Preview Assets.xcassets */; };
 		F86569EE23F8577800FB4B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86569EC23F8577800FB4B51 /* LaunchScreen.storyboard */; };
-		F86569F923F8577800FB4B51 /* SwiftUI_CourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86569F823F8577800FB4B51 /* SwiftUI_CourseTests.swift */; };
-		F8656A0423F8577800FB4B51 /* SwiftUI_CourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8656A0323F8577800FB4B51 /* SwiftUI_CourseUITests.swift */; };
 		F8656A1223F85D1D00FB4B51 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8656A1123F85D1D00FB4B51 /* CardViewController.swift */; };
 		F8DCE59C2407262100740054 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCE59B2407262100740054 /* CardModel.swift */; };
 		F8DCE59E2407290E00740054 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCE59D2407290E00740054 /* CardData.swift */; };
 		F8DCE5A32407525100740054 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8DCE5A22407525100740054 /* sound-chime.mp3 */; };
 		F8DCE5A52407526B00740054 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCE5A42407526B00740054 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F86569F523F8577800FB4B51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F86569D623F8577600FB4B51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F86569DD23F8577600FB4B51;
-			remoteInfo = "SwiftUI Course";
-		};
-		F8656A0023F8577800FB4B51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F86569D623F8577600FB4B51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F86569DD23F8577600FB4B51;
-			remoteInfo = "SwiftUI Course";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1E6473D1C16CE8C70BAF2B81 /* Pods-SwiftUI Course.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Course.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI Course/Pods-SwiftUI Course.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,12 +35,6 @@
 		F86569EA23F8577800FB4B51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F86569ED23F8577800FB4B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86569EF23F8577800FB4B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F86569F423F8577800FB4B51 /* SwiftUI CourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI CourseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86569F823F8577800FB4B51 /* SwiftUI_CourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CourseTests.swift; sourceTree = "<group>"; };
-		F86569FA23F8577800FB4B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F86569FF23F8577800FB4B51 /* SwiftUI CourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI CourseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8656A0323F8577800FB4B51 /* SwiftUI_CourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CourseUITests.swift; sourceTree = "<group>"; };
-		F8656A0523F8577800FB4B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8656A1123F85D1D00FB4B51 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		F8DCE59B2407262100740054 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		F8DCE59D2407290E00740054 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
@@ -73,20 +48,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5960309F9DDAF33BCEDEFD3D /* libPods-SwiftUI Course.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F86569F123F8577800FB4B51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F86569FC23F8577800FB4B51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				F86569E023F8577600FB4B51 /* SwiftUI Course */,
-				F86569F723F8577800FB4B51 /* SwiftUI CourseTests */,
-				F8656A0223F8577800FB4B51 /* SwiftUI CourseUITests */,
 				F86569DF23F8577600FB4B51 /* Products */,
 				CA80AADDEDAEE939D5CEE214 /* Pods */,
 				D9BD30521632EA1A4ED8A52E /* Frameworks */,
@@ -126,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				F86569DE23F8577600FB4B51 /* SwiftUI Course.app */,
-				F86569F423F8577800FB4B51 /* SwiftUI CourseTests.xctest */,
-				F86569FF23F8577800FB4B51 /* SwiftUI CourseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,24 +114,6 @@
 				F86569EA23F8577800FB4B51 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F86569F723F8577800FB4B51 /* SwiftUI CourseTests */ = {
-			isa = PBXGroup;
-			children = (
-				F86569F823F8577800FB4B51 /* SwiftUI_CourseTests.swift */,
-				F86569FA23F8577800FB4B51 /* Info.plist */,
-			);
-			path = "SwiftUI CourseTests";
-			sourceTree = "<group>";
-		};
-		F8656A0223F8577800FB4B51 /* SwiftUI CourseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F8656A0323F8577800FB4B51 /* SwiftUI_CourseUITests.swift */,
-				F8656A0523F8577800FB4B51 /* Info.plist */,
-			);
-			path = "SwiftUI CourseUITests";
 			sourceTree = "<group>";
 		};
 		F8DCE599240725C900740054 /* ViewController */ = {
@@ -239,42 +178,6 @@
 			productReference = F86569DE23F8577600FB4B51 /* SwiftUI Course.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F86569F323F8577800FB4B51 /* SwiftUI CourseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8656A0B23F8577800FB4B51 /* Build configuration list for PBXNativeTarget "SwiftUI CourseTests" */;
-			buildPhases = (
-				F86569F023F8577800FB4B51 /* Sources */,
-				F86569F123F8577800FB4B51 /* Frameworks */,
-				F86569F223F8577800FB4B51 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F86569F623F8577800FB4B51 /* PBXTargetDependency */,
-			);
-			name = "SwiftUI CourseTests";
-			productName = "SwiftUI CourseTests";
-			productReference = F86569F423F8577800FB4B51 /* SwiftUI CourseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F86569FE23F8577800FB4B51 /* SwiftUI CourseUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8656A0E23F8577800FB4B51 /* Build configuration list for PBXNativeTarget "SwiftUI CourseUITests" */;
-			buildPhases = (
-				F86569FB23F8577800FB4B51 /* Sources */,
-				F86569FC23F8577800FB4B51 /* Frameworks */,
-				F86569FD23F8577800FB4B51 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8656A0123F8577800FB4B51 /* PBXTargetDependency */,
-			);
-			name = "SwiftUI CourseUITests";
-			productName = "SwiftUI CourseUITests";
-			productReference = F86569FF23F8577800FB4B51 /* SwiftUI CourseUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -287,14 +190,6 @@
 				TargetAttributes = {
 					F86569DD23F8577600FB4B51 = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					F86569F323F8577800FB4B51 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = F86569DD23F8577600FB4B51;
-					};
-					F86569FE23F8577800FB4B51 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = F86569DD23F8577600FB4B51;
 					};
 				};
 			};
@@ -312,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				F86569DD23F8577600FB4B51 /* SwiftUI Course */,
-				F86569F323F8577800FB4B51 /* SwiftUI CourseTests */,
-				F86569FE23F8577800FB4B51 /* SwiftUI CourseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,20 +221,6 @@
 				F86569EB23F8577800FB4B51 /* Preview Assets.xcassets in Resources */,
 				F80629A8240B513900165160 /* GoogleService-Info.plist in Resources */,
 				F86569E823F8577800FB4B51 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F86569F223F8577800FB4B51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F86569FD23F8577800FB4B51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,36 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F86569F023F8577800FB4B51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F86569F923F8577800FB4B51 /* SwiftUI_CourseTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F86569FB23F8577800FB4B51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8656A0423F8577800FB4B51 /* SwiftUI_CourseUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F86569F623F8577800FB4B51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F86569DD23F8577600FB4B51 /* SwiftUI Course */;
-			targetProxy = F86569F523F8577800FB4B51 /* PBXContainerItemProxy */;
-		};
-		F8656A0123F8577800FB4B51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F86569DD23F8577600FB4B51 /* SwiftUI Course */;
-			targetProxy = F8656A0023F8577800FB4B51 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F86569EC23F8577800FB4B51 /* LaunchScreen.storyboard */ = {
@@ -586,86 +436,6 @@
 			};
 			name = Release;
 		};
-		F8656A0C23F8577800FB4B51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SwiftUI CourseTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.donut.SwiftUI-CourseTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Course.app/SwiftUI Course";
-			};
-			name = Debug;
-		};
-		F8656A0D23F8577800FB4B51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SwiftUI CourseTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.donut.SwiftUI-CourseTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Course.app/SwiftUI Course";
-			};
-			name = Release;
-		};
-		F8656A0F23F8577800FB4B51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SwiftUI CourseUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.donut.SwiftUI-CourseUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftUI Course";
-			};
-			name = Debug;
-		};
-		F8656A1023F8577800FB4B51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SwiftUI CourseUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.donut.SwiftUI-CourseUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftUI Course";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -683,24 +453,6 @@
 			buildConfigurations = (
 				F8656A0923F8577800FB4B51 /* Debug */,
 				F8656A0A23F8577800FB4B51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8656A0B23F8577800FB4B51 /* Build configuration list for PBXNativeTarget "SwiftUI CourseTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8656A0C23F8577800FB4B51 /* Debug */,
-				F8656A0D23F8577800FB4B51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8656A0E23F8577800FB4B51 /* Build configuration list for PBXNativeTarget "SwiftUI CourseUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8656A0F23F8577800FB4B51 /* Debug */,
-				F8656A1023F8577800FB4B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
