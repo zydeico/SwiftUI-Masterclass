@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5960309F9DDAF33BCEDEFD3D /* libPods-SwiftUI Course.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8120AB5879CE6DE349FAF2 /* libPods-SwiftUI Course.a */; };
 		F80629A8240B513900165160 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F80629A7240B513900165160 /* GoogleService-Info.plist */; };
+		F82D011B24377BD4002CCFBD /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82D011A24377BD4002CCFBD /* Stickers.xcassets */; };
+		F82D011F24377BD4002CCFBD /* Stickers of course.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F82D011824377BD1002CCFBD /* Stickers of course.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F86569E223F8577600FB4B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86569E123F8577600FB4B51 /* AppDelegate.swift */; };
 		F86569E423F8577600FB4B51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86569E323F8577600FB4B51 /* SceneDelegate.swift */; };
 		F86569E623F8577600FB4B51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86569E523F8577600FB4B51 /* ContentView.swift */; };
@@ -22,11 +24,38 @@
 		F8DCE5A52407526B00740054 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCE5A42407526B00740054 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F82D011D24377BD4002CCFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F86569D623F8577600FB4B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82D011724377BD1002CCFBD;
+			remoteInfo = Stickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F82D012024377BD4002CCFBD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F82D011F24377BD4002CCFBD /* Stickers of course.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1E6473D1C16CE8C70BAF2B81 /* Pods-SwiftUI Course.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Course.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI Course/Pods-SwiftUI Course.release.xcconfig"; sourceTree = "<group>"; };
 		629449DEB4B0B247075CCFCD /* Pods-SwiftUI Course.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Course.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI Course/Pods-SwiftUI Course.debug.xcconfig"; sourceTree = "<group>"; };
 		AE8120AB5879CE6DE349FAF2 /* libPods-SwiftUI Course.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftUI Course.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80629A7240B513900165160 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F82D011824377BD1002CCFBD /* Stickers of course.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stickers of course.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82D011A24377BD4002CCFBD /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		F82D011C24377BD4002CCFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86569DE23F8577600FB4B51 /* SwiftUI Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86569E123F8577600FB4B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F86569E323F8577600FB4B51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,10 +100,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F82D011924377BD1002CCFBD /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				F82D011A24377BD4002CCFBD /* Stickers.xcassets */,
+				F82D011C24377BD4002CCFBD /* Info.plist */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
 		F86569D523F8577600FB4B51 = {
 			isa = PBXGroup;
 			children = (
 				F86569E023F8577600FB4B51 /* SwiftUI Course */,
+				F82D011924377BD1002CCFBD /* Stickers */,
 				F86569DF23F8577600FB4B51 /* Products */,
 				CA80AADDEDAEE939D5CEE214 /* Pods */,
 				D9BD30521632EA1A4ED8A52E /* Frameworks */,
@@ -85,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				F86569DE23F8577600FB4B51 /* SwiftUI Course.app */,
+				F82D011824377BD1002CCFBD /* Stickers of course.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +200,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F82D011724377BD1002CCFBD /* Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82D012324377BD4002CCFBD /* Build configuration list for PBXNativeTarget "Stickers" */;
+			buildPhases = (
+				F82D011624377BD1002CCFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stickers;
+			productName = Stickers;
+			productReference = F82D011824377BD1002CCFBD /* Stickers of course.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		F86569DD23F8577600FB4B51 /* SwiftUI Course */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8656A0823F8577800FB4B51 /* Build configuration list for PBXNativeTarget "SwiftUI Course" */;
@@ -168,10 +223,12 @@
 				F86569DA23F8577600FB4B51 /* Sources */,
 				F86569DB23F8577600FB4B51 /* Frameworks */,
 				F86569DC23F8577600FB4B51 /* Resources */,
+				F82D012024377BD4002CCFBD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F82D011E24377BD4002CCFBD /* PBXTargetDependency */,
 			);
 			name = "SwiftUI Course";
 			productName = "SwiftUI Course";
@@ -188,6 +245,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Daniel Vázquez";
 				TargetAttributes = {
+					F82D011724377BD1002CCFBD = {
+						CreatedOnToolsVersion = 11.4;
+					};
 					F86569DD23F8577600FB4B51 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -207,11 +267,20 @@
 			projectRoot = "";
 			targets = (
 				F86569DD23F8577600FB4B51 /* SwiftUI Course */,
+				F82D011724377BD1002CCFBD /* Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F82D011624377BD1002CCFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82D011B24377BD4002CCFBD /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F86569DC23F8577600FB4B51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +337,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F82D011E24377BD4002CCFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82D011724377BD1002CCFBD /* Stickers */;
+			targetProxy = F82D011D24377BD4002CCFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		F86569EC23F8577800FB4B51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -280,6 +357,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F82D012124377BD4002CCFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7U747L4JR;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donut.SwiftUiCourse123.Stickers;
+				PRODUCT_NAME = "Stickers of course";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F82D012224377BD4002CCFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7U747L4JR;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donut.SwiftUiCourse123.Stickers;
+				PRODUCT_NAME = "Stickers of course";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F8656A0623F8577800FB4B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,6 +546,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F82D012324377BD4002CCFBD /* Build configuration list for PBXNativeTarget "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82D012124377BD4002CCFBD /* Debug */,
+				F82D012224377BD4002CCFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F86569D923F8577600FB4B51 /* Build configuration list for PBXProject "SwiftUI Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
